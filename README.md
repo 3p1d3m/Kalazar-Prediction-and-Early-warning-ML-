@@ -1,8 +1,9 @@
 # Kalazar Prediction Project
 
-# Declining Kala-azar Cases: Hibernation for Resurgence or Journey towards True Extinction?  Exploring the Impact of Climate, Lankien, Republic of South Sudan. 
+# Declining Kala-azar Cases: Hibernation for Resurgence or Journey towards True Extinction?  Exploring the Impact of Climate, Lankien, Republic of South Sudan.
 
-The prevalence of Kalazar/Visceral Leishmaniasis cases treated in Lankien hospital has been progressively decreasing, especially since the year 2020. While there was a notable frequent episode of flooding in the area, the reason behind the low number of VL cases remained uninvestigated.
+The prevalence of Kalazar/Visceral Leishmaniasis cases treated in Lankien hospital has been progressively decreasing, especially since the year 2020. While there was a notable frequent episode of flooding in the area, the reason behind the low number of VL cases remained uninvestigated.\
+![](images/paste-25.png)
 
 **The possible scenarios could:**
 
@@ -32,7 +33,7 @@ The prevalence of Kalazar/Visceral Leishmaniasis cases treated in Lankien hospit
 
 [*Disclosure*]{.underline}*: This analysis was part of the routine deployment work in South Sudan, and hence it has not continued after 2023, due to lack of access to data. Yet this analysis is internal, with all the data protection and integrity for MSF respected.*
 
-## Predicting KA cases using the historical KA cases 
+## Predicting KA cases using the historical KA cases
 
 ![](images/paste-1.png)
 
@@ -42,7 +43,7 @@ The prevalence of Kalazar/Visceral Leishmaniasis cases treated in Lankien hospit
 
 ![](images/paste-3.png)
 
-## Correlation between KA/VL cases and climate variables 
+## Correlation between KA/VL cases and climate variables
 
 ![](images/paste-4.png)
 
@@ -82,13 +83,13 @@ Models without lagged time indicators
 
 ![](images/paste-17.png)
 
-## **Partiall dependence plots** 
+## **Partiall dependence plots**
 
 ![](images/paste-20.png)
 
-# Annexes 
+# Annexes
 
-#### 1. ARIMA time series predictions (train test 80, 20) 
+#### 1. ARIMA time series predictions (train test 80, 20)
 
 ![](images/paste-21.png)
 
