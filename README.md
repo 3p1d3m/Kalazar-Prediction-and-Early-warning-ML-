@@ -31,3 +31,75 @@ The prevalence of Kalazar/Visceral Leishmaniasis cases treated in Lankien hospit
 *Feb 2025, Juba, South Sudan*
 
 [*Disclosure*]{.underline}*: This analysis was part of the routine deployment work in South Sudan, and hence it has not continued after 2023, due to lack of access to data. Yet this analysis is internal, with all the data protection and integrity for MSF respected.*
+
+## Predicting KA cases using the historical KA cases 
+
+![](images/paste-1.png)
+
+![](images/paste-2.png)
+
+## Climate variables and VL cases treated in Lankien Hospital
+
+![](images/paste-3.png)
+
+## Correlation between KA/VL cases and climate variables 
+
+![](images/paste-4.png)
+
+### Lagged variable and KA cases cross-correlation
+
+![](images/paste-5.png)
+
+### Climate variables and KA cases using the Granger Causality Test (GCT)
+
+![](images/paste-6.png)
+
+### Using Fourier transformation and seasonality
+
+## Machine learning methods
+
+Models without lagged time indicators
+
+![](images/paste-8.png)
+
+![](images/paste-9.png)
+
+![](images/paste-10.png)
+
+## Models with the variables with a lagged time
+
+![](images/paste-11.png)
+
+![](images/paste-12.png)
+
+![](images/paste-13.png)
+
+![](images/paste-14.png)
+
+![](images/paste-15.png)
+
+![](images/paste-16.png)
+
+![](images/paste-17.png)
+
+## **Partiall dependence plots** 
+
+![](images/paste-20.png)
+
+# Annexes 
+
+#### 1. ARIMA time series predictions (train test 80, 20) 
+
+![](images/paste-21.png)
+
+#### 2. LSTM Predictions (train test 80, 20)
+
+![](images/paste-22.png)
+
+3.  **Random forest models fitted with the lagged KA cases autoregression**
+
+    ![](images/paste-23.png)
+
+4.  **XGBoost autoregression models**
+
+![](images/paste-24.png)
